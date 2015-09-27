@@ -1,0 +1,20 @@
+#projects-section {
+  width: 100%;
+
+  #jot-card > .mdl-card__title {
+    color: #000;
+    height: 176px;
+    background: url('../images/projects/jot.png') center / cover #fff;
+  }
+
+  #jot-card > .mdl-card__menu {
+    color: #000;
+  }
+
+  #captcha-card > .mdl-card__title {
+    color: #000;
+    height: 176px;
+    background: url('../images/projects/captcha.gif') center / cover #fff;
+  }
+
+}

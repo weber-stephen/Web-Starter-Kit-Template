@@ -1,0 +1,221 @@
+/**
+*
+* Global
+*
+**/
+
+body {
+  margin: 0;
+}
+
+/* Disable ugly boxes around images in IE10 */
+a img{
+  border: 0px;
+}
+
+::-moz-selection {
+  background-color: #6ab344;
+  color: #fff;
+}
+
+::selection {
+  background-color: #6ab344;
+  color: #fff;
+}
+
+.nav .mdl-menu__container {
+  z-index: 50;
+  margin: 0 !important;
+
+}
+
+.mdl-textfield--expandable {
+  width: auto;
+}
+
+.fab {
+  position: absolute;
+  right: 20%;
+  bottom: -26px;
+  z-index: 3;
+  background: #64ffda !important;
+  color: black !important;
+}
+
+.mobile-title {
+  display: none !important;
+}
+
+.mdl-layout__drawer {
+  span {
+    color: #fff;
+    text-transform: uppercase;
+  }
+}
+
+.mdl-layout__drawer-button {
+  color: #000;
+}
+
+.nav {
+  overflow: visible;
+  background-color: white;
+
+  .title {
+      color: #000;
+  }
+
+  .material-icons {
+    color: #767777 !important;
+  }
+
+  .mdl-layout__drawer-button {
+    background: transparent;
+    color: #767777;
+  }
+
+  .mdl-navigation__link {
+    color: #757575;
+    font-weight: 700;
+    font-size: 14px;
+  }
+
+}
+
+  .navigation-container {
+    /* Simple hack to make the overflow happen to the left instead... */
+    direction: rtl;
+    -webkit-box-ordinal-group: 2;
+    -webkit-order: 1;
+        -ms-flex-order: 1;
+            order: 1;
+    width: 500px;
+    -webkit-transition: opacity 0.2s cubic-bezier(0.4, 0, 0.2, 1),
+        width 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+            transition: opacity 0.2s cubic-bezier(0.4, 0, 0.2, 1),
+        width 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .navigation {
+    /* ... and now make sure the content is actually LTR */
+    direction: ltr;
+    -webkit-box-pack: end;
+    -webkit-justify-content: flex-end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    width: 800px;
+
+    .mdl-navigation__link {
+      display: inline-block;
+      height: 60px;
+      line-height: 68px;
+      background-color: transparent !important;
+      border-bottom: 4px solid transparent;
+    }
+
+    .mdl-navigation__link:hover {
+      border-bottom: 4px solid #8bc34a;
+    }
+  }
+
+
+  .drawer {
+    border-right: none;
+
+    .mdl-navigation__link.mdl-navigation__link {
+      font-size: 14px;
+      color: #757575;
+    }
+
+    span.mdl-navigation__link.mdl-navigation__link {
+      color: #8bc34a;
+    }
+
+    .mdl-layout-title {
+      position: relative;
+      background: #000;
+      height: 65px;
+    }
+
+    .logo-image {
+      position: absolute;
+      bottom: 16px;
+    }
+
+  }
+
+  .drawer-separator {
+    height: 1px;
+    background-color: #dcdcdc;
+    margin: 8px 0;
+  }
+
+.img-circle {
+  border-radius: 50%;
+}
+
+.center {
+  float: none;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.mdl-grid.center {
+  justify-content: center;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.mdl-card {
+  width: auto;
+  max-width: 400px;
+}
+
+/**** Mobile layout ****/
+@media (max-width: 900px) {
+  .navigation-container {
+    display: none;
+  }
+
+  .nav {
+    .title {
+      display: none !important;
+    }
+  }
+
+  .mobile-title {
+    display: block !important;
+    position: absolute;
+    left: calc(50% - 70px);
+    top: 12px;
+    -webkit-transition: opacity 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+            transition: opacity 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .fab {
+    display: none;
+  }
+
+}
+
+@media (max-width: 320px) {
+  section {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+
+  .g-recaptcha {
+    margin-left: 0;
+  }
+}
+

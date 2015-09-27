@@ -1,0 +1,38 @@
+.header {
+  position: relative;
+  height: 350px;
+  width: 100%;
+  background-color: #f3f3f3;
+  background: url('../images/stephenweberbanner_abstract.jpg') center 30% no-repeat;
+  background-size: cover;
+
+  .slogan {
+    padding-top: 10%;
+
+    .header-title {
+      color: #fff;
+      padding: 20px;
+      margin-left: auto;
+      margin-right: auto;
+      background-color: rgba(255, 255, 255, 0.3);
+      font-size: 4em;
+      width: 440px;
+    }
+
+  }
+
+}
+
+@media (max-width: 320px) {
+
+  .header {
+    height: 130px;
+
+    .slogan .header-title {
+      font-size: 2.5em;
+      width: 250px;
+    }
+
+  }
+
+}

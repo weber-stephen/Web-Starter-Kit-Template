@@ -1,0 +1,90 @@
+/*
+*
+* Work page
+*
+**/
+
+.page--work {
+
+  section {
+    margin-top: 100px;
+    margin-bottom: 200px;
+  }
+
+  .header {
+    position: relative;
+    height: 350px;
+    width: 100%;
+    background-color: #f3f3f3;
+    background: url('../images/stephenweberbanner_abstract.jpg') center 30% no-repeat;
+    background-size: cover;
+
+    .slogan {
+      padding-top: 10%;
+
+      .header-title {
+        color: #fff;
+        padding: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: rgba(255, 255, 255, 0.3);
+        font-size: 4em;
+        width: 440px;
+      }
+
+    }
+
+  }
+
+  #projects-section {
+
+  }
+
+  #portfolio-section {
+
+    .mdl-card__title {
+      color: #000;
+      height: 178px;
+    }
+
+    #infinite-crisis > .mdl-card__title {
+      background: url('../images/portfolio/infinite-crisis.jpg') center / cover #fff;
+    }
+
+    #sprint > .mdl-card__title{
+      background: url('../images/portfolio/sprint.jpg') center / cover #fff;
+    }
+
+    #cindycrawford > .mdl-card__title{
+      background: url('../images/portfolio/cindycrawford.jpg') center / cover #fff;
+    }
+
+    #kaijuland > .mdl-card__title{
+      background: url('../images/portfolio/kaijuland.jpg') center / cover #fff;
+    }
+
+    #bettertoknowc > .mdl-card__title{
+      background: url('../images/portfolio/bettertoknowc.jpg') center / cover #fff;
+    }
+
+    #avastin_nurse_expert > .mdl-card__title{
+      background: url('../images/portfolio/avastin_nurse_expert.jpg') center / cover #fff;
+    }
+
+  }
+
+  #clients-section {
+
+    .mdl-card__title {
+      color: #000;
+      // height: 178px;
+
+      img {
+        padding: 15px;
+      }
+
+    }
+
+  }
+
+}

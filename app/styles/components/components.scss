@@ -1,0 +1,15 @@
+/**
+*
+* Main Stylesheet For Visual Style Guide
+*
+**/
+
+@import '_global';
+
+// Components
+@import '_components/_header';
+@import '_components/_footer';
+@import '_components/_pie-chart';
+@import '_components/_cards';
+@import '_components/_projects';
+@import '_components/_contact';

@@ -1,0 +1,25 @@
+#contact-section {
+
+  .mdl-textfield {
+    width: 100%;
+  }
+
+  .row {
+    width: 100%;
+  }
+
+  .mdl-button--raised.mdl-button--colored {
+    margin-top: 20px;
+  }
+
+}
+
+@media (max-width: 320px) {
+  
+  #contact-section {
+    .mdl-grid {
+      padding: 0;
+    }
+  }
+
+}

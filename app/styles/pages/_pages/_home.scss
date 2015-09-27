@@ -1,0 +1,119 @@
+/*
+*
+* Home page
+*
+**/
+
+.page--home {
+
+  section {
+    margin-top: 100px;
+    margin-bottom: 200px;
+  }
+
+  .header {
+    background: url('../images/stephenweberbanner_abstract.jpg') center 30% no-repeat;
+    // background: url('../images/header6.jpg') center 30% no-repeat;
+    background-size: cover;
+
+    .slogan {
+
+      .header-title {
+
+      }
+
+    }
+
+  }
+
+  #about-me-section {
+    position: relative;
+    width: 100%;
+    padding: 20px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+
+    #avatar {
+      width: 200px;
+      margin-top: 40px;
+      margin-bottom: 40px;
+    }
+
+    #about-copy {
+      width: 420px;
+      font-size: 1.5em;
+      line-height: 1.5em;
+    }
+
+  }
+
+  #skills-section {
+
+  }
+
+  #projects-section {
+
+  }
+
+  #why-card {
+    width: 100%;
+
+    .mdl-card__supporting-text {
+      font-size: 1.25em;
+      line-height: 1.5em;
+      width: 100%;
+      padding-left: 40px;
+      padding-right: 40px;
+      padding-bottom: 40px;
+    }
+  }
+
+  #awards-section {
+
+    .mdl-card__title.full {
+      height: 200px;
+    }
+
+    .mdl-card__title {
+      color: #000;
+    }
+
+    #webby-card > .mdl-card__title {
+      background: url('../images/awards/webby.gif') center / cover #fff;
+    }
+
+    #fwa-card > .mdl-card__title {
+      background: url('../images/awards/fwa.gif') center / cover #fff;
+    }
+
+    #sxsw-card > .mdl-card__title {
+      background: url('../images/awards/sxsw.gif') center / cover #fff;
+    }
+
+  }
+
+}
+
+
+.section-title {
+  text-align: center;
+}
+.section-subtitle {
+  text-align: center;
+}
+
+
+.skills-section {
+  .mdl-card {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 40px;
+    padding-top: 30px;
+  }
+
+}
+
+  .pie-chart {
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }

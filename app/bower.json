@@ -1,0 +1,22 @@
+{
+  "name": "stephenweber.io",
+  "version": "1.0.0",
+  "authors": [
+    "Stephen Weber <me@stephenweber.io>"
+  ],
+  "description": "stephenweber.io website",
+  "license": "MIT",
+  "homepage": "stephenweber.io",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "Chart.js": "~1.0.2",
+    "handlebars": "~4.0.2",
+    "jquery.easy-pie-chart": "~2.1.6"
+  }
+}

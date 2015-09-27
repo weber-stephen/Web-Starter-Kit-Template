@@ -1,0 +1,36 @@
+.pie-chart {
+  position: relative;
+  // width: 100%;
+  width: 150px;
+  // height: 190px;
+  // margin-right: 20px;
+  // margin-left: auto;
+  // margin-right: auto;
+  // float: left;
+
+  .chart {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .pie-chart-percentage {
+    // position: absolute;
+    // top: 46px;
+    // left: 35px;
+    // font-size: 2em;
+
+    position: absolute;
+    top: 66px;
+    font-size: 2em;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .pie-chart-label {
+    text-align: center;
+    width: 100%;
+    font-size: 1.5em;
+    margin-top: 20px;
+  }
+
+}
