@@ -2,7 +2,6 @@
 
 ## Overview
 
-[Template]
 This is a template using the Web Starter Kit and the components from [Material Design Lite](http://www.getmdl.io). I have included all the contents from the Web Starter Kit README in this README to make it easy. I have modified the Web Starter Kit README to include the changes I have made.
 You can view the template at [http://stephenweber.io](http://stephenweber.io).
 
