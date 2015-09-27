@@ -1,6 +1,10 @@
-# [![Web Starter Kit](https://cloud.githubusercontent.com/assets/170270/3343034/ceef6e92-f899-11e3-96b9-5d9d69d97a00.png)](https://github.com/google/web-starter-kit/releases/latest)
+# [![Web Starter Kit - Template](https://cloud.githubusercontent.com/assets/170270/3343034/ceef6e92-f899-11e3-96b9-5d9d69d97a00.png)](https://github.com/google/web-starter-kit/releases/latest)
 
 ## Overview
+
+[Template]
+This is a template using the Web Starter Kit and the components from [Material Design Lite](http://www.getmdl.io). I have included all the contents from the Web Starter Kit README in this README to make it easy. I have modified the Web Starter Kit README to include the changes I have made.
+You can view the template at [http://stephenweber.io](http://stephenweber.io).
 
 [Web Starter Kit](https://developers.google.com/web/starter-kit) is an opinionated boilerplate for web development. Tools for building a great experience [across many devices](https://google.github.io/web-starter-kit/hello-world/) and [performance oriented](#web-performance). Helping you to stay productive following the best practices outlined in Google's [Web Fundamentals](https://developers.google.com/web/fundamentals). A solid starting point for both professionals and newcomers to the industry.
 
@@ -10,10 +14,14 @@
 
 [Download](https://github.com/google/web-starter-kit/releases/latest) the kit or clone this repository and build on what is included in the `app` directory.
 
+In the app directory install and run the command "bower install" in Terminal to get the required libraries. For more information on bower visit (http://bower.io)[http://bower.io].
+
 There are two HTML starting points, from which you can choose:
 
-- `index.html` - (IE10+) the default starting point, containing layout and a slide-out menu
-- `basic.html` - (IE8+) no layout, but still includes our minimal mobile best-practices
+- `index.html` - Homepage version of the template
+- `about.html`
+- `work.html`
+- `contact.html`
 
 Be sure to look over the [installation docs](docs/install.md) to verify your environment is prepared to run WSK.
 Once you have verified that your system can run WSK, check out the [commands](docs/commands.md) available to get started.
